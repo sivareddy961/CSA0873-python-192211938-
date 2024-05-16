@@ -1,0 +1,4 @@
+def sum_of_digits_single_digit(n):
+    while n >= 10:
+        n = sum(int(digit) for digit in str(n))
+    return n
